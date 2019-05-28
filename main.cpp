@@ -1,7 +1,6 @@
 #include <iostream>
+#include "inc/measure.h"
 
-typedef int (*f)(int *, int);
-int measure(f);
 int fake_sort(int *array, int n);
 
 int main (int argc, char *argv[])
